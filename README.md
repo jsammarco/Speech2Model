@@ -1,5 +1,7 @@
 # Speech2Model
 
+![Speech2Model](https://github.com/jsammarco/Speech2Model/blob/13e88f3e0675b5322017eece348ce243f1dfab02/Speech2Model.jpg)
+
 Welcome to the **Speech2Model** project! This program converts spoken descriptions into detailed 3D models using the Meshy.ai API and a custom speech-to-text pipeline.
 
 ## Overview
