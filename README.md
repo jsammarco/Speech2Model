@@ -4,6 +4,8 @@
 
 Welcome to the **Speech2Model** project! This program converts spoken descriptions into detailed 3D models using the Meshy.ai API and a custom speech-to-text pipeline.
 
+[Youtube Video Demo](https://www.youtube.com/watch?v=QsCPulPY6uQ)
+
 ## Overview
 The application enables you to:
 1. Transcribe your speech using a microphone.
