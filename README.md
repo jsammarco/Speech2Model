@@ -22,7 +22,7 @@ The application enables you to:
 
 ### Prerequisites
 Ensure you have the following installed:
-- Ollama with LLM (For sanitising and improving 3D prompt)
+- Ollama with LLM (For sanitizing and improving 3D prompt)
 - Python 3.8 or later
 - Required Python libraries (install via pip):
   ```bash
