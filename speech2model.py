@@ -1,10 +1,19 @@
 import speech_recognition as sr
 import requests
 import json, time, sys, os
+from dotenv import load_dotenv
 
-api_key = "YOUR MESHY.AI KEY"
+# Load environment variables from .env file
+load_dotenv()
+
+# Retrieve the API key from the environment
+api_key = os.getenv("MESHY_KEY")
+
+if not api_key:
+    sys.exit("Error: MESHY_KEY not found in .env file")
+
 headers = {
-  "Authorization": f"Bearer {api_key}"
+    "Authorization": f"Bearer {api_key}"
 }
 
 main_prompt = """You are a 3D model prompt assistant. Take any vague elements and get creative with further supporting details. Wait for the user to explicitly state 'Create Model' when they are done describing their model. Only after hearing this phrase, generate a detailed 3D modeling prompt based on their input.
